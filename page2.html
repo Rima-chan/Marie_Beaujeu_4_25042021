@@ -1,10 +1,13 @@
 <!doctype html>
-<html lang="Default">
+<html lang="fr"> <!-- Attribut "lang = fr"-->
 <head>
+	
+	<!-- Modification balises title et description - Suppression balise Keywords - Modification Attribut "lang" - Ajout balise Robot -->
+
     <meta charset="utf-8">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+	<meta name="description" content="Entreprise de Webdesign à Lyon | Contactez la Chouette Agence">
+	<meta name="robots" content="index,follow">
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
@@ -18,8 +21,8 @@
 	<script src="./js/blocs.min.js"></script>
 	<script src="./js/jqBootstrapValidation.js"></script>
 	<script src="./js/formHandler.js"></script>
-    <title>page2</title>
 
+	<title>La Chouette Agence | Contact</title>
     
 <!-- Analytics -->
  
@@ -31,7 +34,7 @@
 <div class="page-container">
     
 <!-- bloc-0 -->
-<div class="bloc bgc-white l-bloc " id="bloc-0">
+<header class="bloc bgc-white l-bloc " id="bloc-0">
 	<div class="container bloc-sm">
 		<nav class="navbar row">
 			<div class="navbar-header">
@@ -54,17 +57,15 @@
 			</div>
 		</nav>
 	</div>
-</div>
+</header>
 <!-- bloc-0 END -->
 
 <!-- bloc-6 -->
-<div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
+<section class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-12">
-				<h1 class="text-center hero-bloc-text tc-white">
-					Parlons web design !
-				</h1>
+				<h1 class="text-center hero-bloc-text tc-white">Parlons web design !</h1>
 				<p class="text-center mg-lg tc-white tight-width-whitespace">
 					Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
 					Parlez-nous de votre projet en complétant le formulaire ci-dessous.
@@ -72,31 +73,25 @@
 			</div>
 		</div>
 	</div>
-</div>
+</section>
 <!-- bloc-6 END -->
 
 <!-- bloc-7 -->
-<div class="bloc bgc-white l-bloc" id="bloc-7">
+<section class="bloc bgc-white l-bloc" id="bloc-7">
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
 				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
-						<label>
-							Nom
-						</label>
+						<label for="name">Nom</label>
 						<input id="name" class="form-control" required />
 					</div>
 					<div class="form-group">
-						<label>
-							Adresse email
-						</label>
+						<label for="email">Adresse email</label>
 						<input id="email" class="form-control" type="email" required />
 					</div>
 					<div class="form-group">
-						<label>
-							Comment nous avez-vous connu ?
-						</label>
+						<label for="form-control">Comment nous avez-vous connu ?</label>
 						<input class="form-control" type="email" required id="input_504" />
 					</div>
 					<div class="form-group">
@@ -116,7 +111,7 @@
 			</div>
 		</div>
 	</div>
-</div>
+</section>
 <!-- bloc-7 END -->
 
 <!-- ScrollToTop Button -->
@@ -125,7 +120,7 @@
 
 
 <!-- Footer - bloc-8 -->
-<div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
@@ -157,7 +152,7 @@
 			</div>
 		</div>
 	</div>
-</div>
+</footer>
 <!-- Footer - bloc-8 END -->
 
 </div>
