@@ -596,14 +596,15 @@ a[data-lightbox]:hover img {
     margin: 0 auto;
 }
 
+.img-project {
+    margin: auto;
+}
+
 .lightbox-caption {
-    padding: 20px;
     color: #FFF;
     background: rgba(0, 0, 0, .5);
-    position: absolute;
-    left: 15px;
-    right: 15px;
-    bottom: 5px;
+    position: relative;
+    text-align: center;
 }
 
 .close-lightbox {
@@ -649,12 +650,8 @@ a[data-lightbox]:hover img {
     left: 25px;
 }
 
-.snapshot-lb .modal-body {
-    padding-bottom: 45px;
-}
-
 .snapshot-lb .lightbox-caption {
-    padding: 0;
+    padding-top: 1em;
     color: rgba(0, 0, 0, .5);
     background: none;
 }
@@ -697,6 +694,15 @@ label {
     font-size: 11px;
 } */
 
+address {
+    padding: 0 1em;
+}
+
+.coordonates-icon {
+    display: inline-block;
+    width: 1em;
+    text-align: center;
+}
 
 .map-responsive {
     overflow:hidden;
@@ -711,10 +717,10 @@ label {
     left:0;
     top:0;
     height:100%;
-    width:95%;
+    width: 100%;
     position:absolute;
     margin: 0 auto;
-    padding:0;
+    padding:0 1em;
     }
 
 .tight-width-whitespace {
