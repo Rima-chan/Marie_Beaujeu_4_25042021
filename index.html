@@ -12,6 +12,8 @@
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 	<link rel="shortcut icon" type="image/png" href="favicon.jpg">
+	<link rel="preload" as="image" href="./img/image-banniere.jpg">
+
     
 	<script src="./js/jquery-2.1.0.js" defer></script>
 	<script src="./js/bootstrap.js" defer></script>
@@ -36,14 +38,13 @@
 
 		<nav class="navbar row">
 			<div class="navbar-header">
-				<!-- Suppression des divs avec les mots-clés - Modification attribut "alt" logo - Suppression <li> inutile - Ajout text "contact"-->
-				<a class="navbar-brand" href="index.html"><img src="img/Logo-chouette-agence.png" alt="Logo-chouette-agence" height="40" /></a>
+				<a class="navbar-brand" href="index.html"><img src="img/Logo-chouette-agence.png" alt="Logo-chouette-agence" height="40" width="215"/></a>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1" aria-label="retour-accueil">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
 			</div>
 			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
-				<ul class="site-navigation nav navbar-nav">
+				<ul class="site-navigation nav navbar-nav txt-size">
 					<li>
 						<a aria-label="Accueil" href="index.html">Accueil</a>
 					</li>
@@ -62,7 +63,7 @@
 		<div class="container bloc-lg">
 			<div class="row tight-width-whitespace">
 				<div class="col-sm-12">
-					<img src="img/logo.png" class="center-block image-resize-mode" width="100" alt="Logo-banniere" />
+					<img src="img/logo.png" class="center-block image-resize-mode" height="100" width="100" alt="Logo-banniere"/>
 					<h1 class="text-center hero-bloc-text tc-white title-1">La Chouette Agence</h1>
 					<div class="text-center">
 						<a aria-label="Contact" href="page2.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero">Contact</a>
@@ -78,7 +79,7 @@
 		<div class="container bloc-md">
 			<div class="row">
 				<div class="col-sm-12 text-center">
-					<h2>La Chouette Agence est une agence de Webdesign à Lyon qui aide les entreprises à devenir attractives et visibles sur internet</h2>
+					<h2>La Chouette Agence est une <strong>entreprise de Webdesign à Lyon</strong> qui aide les entreprises à devenir attractives et visibles sur internet</h2>
 				</div>
 			</div>
 			<div class="row voffset-lg med-width-whitespace">
@@ -146,7 +147,7 @@
 			</div>
 			<div class="row tight-width-whitespace portfolio-row">
 				<article class="col-sm-6 ">
-					<a href="#" data-lightbox="img/magazines-papier.jpg" " data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img src="img/magazines-papier.jpg" alt="magazines-papiers-colorés" class="img-responsive portfolio-thumb img-project" /></a>
+					<a href="#" data-lightbox="img/magazines-papier.jpg" " data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img src="img/magazines-papier.jpg" alt="magazines-papiers-colorés" class="img-responsive portfolio-thumb img-project" width="300" height="300"/></a>
 					<h3 class="mg-md text-center">
 						Refonte d'un site web pour un journal local
 					</h3>
@@ -155,7 +156,7 @@
 					</p>
 				</article>
 				<article class="col-sm-6">
-					<a href="#" data-lightbox="img/photographe.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb"><img src="img/photographe.jpg" class="img-responsive portfolio-thumb img-project" alt="photographe-professionnel" /></a>
+					<a href="#" data-lightbox="img/photographe.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb"><img src="img/photographe.jpg" alt="photographe-professionnel" class="img-responsive portfolio-thumb img-project" width="300" height="300" /></a>
 					<h3 class="mg-md text-center">
 						Création d'un site web pour photographes
 					</h3>
@@ -166,7 +167,7 @@
 			</div>
 			<div class="row tight-width-whitespace portfolio-row">
 				<article class="col-sm-6">
-					<a href="#" data-lightbox="img/affaire-voyageur.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb"><img src="img/affaire-voyageur.jpg" class="img-responsive portfolio-thumb img-project" alt="affaires-photo-voyageur"/></a>
+					<a href="#" data-lightbox="img/affaire-voyageur.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb"><img src="img/affaire-voyageur.jpg" alt="affaires-photo-voyageur" class="img-responsive portfolio-thumb img-project" width="300" height="300"/></a>
 					<h3 class="mg-md text-center">
 						Création d'un site internet pour un voyageur
 					</h3>
@@ -175,7 +176,7 @@
 					</p>
 				</article>
 				<article class="col-sm-6">
-					<a href="#" data-lightbox="img/ordinateur.png" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb"><img src="img/ordinateur.png" class="img-responsive portfolio-thumb img-project" alt="ordinateur-portable-bureau"/></a>
+					<a href="#" data-lightbox="img/ordinateur.png" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb"><img src="img/ordinateur.png" alt="ordinateur-portable-bureau" class="img-responsive portfolio-thumb img-project" width="300" height="300"/></a>
 					<h3 class="mg-md text-center">
 						Conception d'un site pour une agence de mariage
 					</h3>
@@ -216,22 +217,22 @@
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a aria-label="lien-twitter" class="social" href="https://twitter.com" target="_blank" rel="noopener"><span class="fa fa-twitter icon-md black"></span></a>
+							<a aria-label="lien-twitter" class="social-icon" href="https://twitter.com" target="_blank" rel="noopener"><span class="fa fa-twitter icon-md black"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a aria-label="lien-facebook" class="social" href="https://facebook.com" target="_blank" rel="noopener"><span class="fa fa-facebook icon-md black"></span></a>
+							<a aria-label="lien-facebook" class="social-icon" href="https://facebook.com" target="_blank" rel="noopener"><span class="fa fa-facebook icon-md black"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a aria-label="lien-dribble" class="social" href="https://dribble.com" target="_blank" rel="noopener"><span class="fa fa-dribbble icon-md black"></span></a>
+							<a aria-label="lien-dribble" class="social-icon" href="https://dribble.com" target="_blank" rel="noopener"><span class="fa fa-dribbble icon-md black"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a aria-label="lien-instagram" class="social" href="https://instagram.com" target="_blank" rel="noopener"><span class="fa fa-instagram icon-md black"></span></a>
+							<a aria-label="lien-instagram" class="social-icon" href="https://instagram.com" target="_blank" rel="noopener"><span class="fa fa-instagram icon-md black"></span></a>
 						</div>
 					</div>
 				</div>

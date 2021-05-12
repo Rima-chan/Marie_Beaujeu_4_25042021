@@ -10,17 +10,17 @@
 	<meta name="robots" content="index,follow">
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="./css/min-page2-bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 	
     
-	<script defer src="./js/jquery-2.1.0.js"></script>
-	<script defer src="./js/bootstrap.js"></script>
-	<script defer src="./js/blocs.js"></script>
-	<script defer src="./js/jqBootstrapValidation.js"></script>
-	<script defer src="./js/formHandler.js"></script>
+	<script src="./js/jquery-2.1.0.js" defer></script>
+	<script src="./js/bootstrap.js" defer></script>
+	<script src="./js/blocs.js" defer></script>
+	<script src="./js/jqBootstrapValidation.js" defer></script>
+	<script src="./js/formHandler.js" defer></script>
 
 	
 
@@ -40,13 +40,13 @@
 	<div class="container bloc-sm">
 		<nav class="navbar row">
 			<div class="navbar-header">
-				<a aria-label="retour-accueil" class="navbar-brand" href="index.html"><img src="img/Logo-chouette-agence.png" alt="Logo-Chouette-Agence" height="40" /></a>
+				<a aria-label="retour-accueil" class="navbar-brand" href="index.html"><img src="img/Logo-chouette-agence.png" alt="Logo-Chouette-Agence" height="40" width="215"/></a>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
 			</div>
 			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
-				<ul class="site-navigation nav navbar-nav">
+				<ul class="site-navigation nav navbar-nav txt-size">
 					<li>
 						<a aria-label="retour-accueil" href="index.html">Accueil</a>
 					</li>
@@ -62,7 +62,7 @@
 
 <main>
 <!-- bloc-6 -->
-	<section class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
+	<section class="bloc bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
 		<div class="container bloc-lg">
 			<div class="row">
 				<div class="col-sm-12">
@@ -85,7 +85,7 @@
 					<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 						<div class="form-group">
 							<label for="name">Nom</label>
-							<input id="name" class="form-control" required  placeholder="Exemple : Julie Dupont"/>
+							<input id="name" class="form-control" required  oninvalid="this.setCustomValidity('User ID is a must')" placeholder="Exemple : Julie Dupont"/>
 						</div>
 						<div class="form-group">
 							<label for="email">Adresse email</label>
@@ -112,7 +112,7 @@
 					</address>
 				</div>
 				<div class="col-sm-6 map-responsive" >
-					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1996.5477257053628!2d4.829774331933901!3d45.76990144598766!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eb020f3664e9%3A0x13e3d71752922c1f!2s2%20Place%20Sathonay%2C%2069001%20Lyon!5e0!3m2!1sfr!2sfr!4v1620590107006!5m2!1sfr!2sfr" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+					<iframe aria-label="plan accès google map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1996.5477257053628!2d4.829774331933901!3d45.76990144598766!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eb020f3664e9%3A0x13e3d71752922c1f!2s2%20Place%20Sathonay%2C%2069001%20Lyon!5e0!3m2!1sfr!2sfr!4v1620590107006!5m2!1sfr!2sfr" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 				</div>
 			</div>
 	</section>
@@ -134,22 +134,22 @@
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a aria-label="lien-twitter" class="social" href="https://twitter.com" target="_blank" rel="noopener"><span class="fa fa-twitter icon-md black"></span></a>
+							<a aria-label="lien-twitter" class="social-icon" href="https://twitter.com" target="_blank" rel="noopener"><span class="fa fa-twitter icon-md black"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a aria-label="lien-facebook" class="social" href="https://facebook.com" target="_blank" rel="noopener"><span class="fa fa-facebook icon-md black"></span></a>
+							<a aria-label="lien-facebook" class="social-icon" href="https://facebook.com" target="_blank" rel="noopener"><span class="fa fa-facebook icon-md black"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a aria-label="lien-dribble" class="social" href="https://dribble.com" target="_blank" rel="noopener"><span class="fa fa-dribbble icon-md black"></span></a>
+							<a aria-label="lien-dribble" class="social-icon" href="https://dribble.com" target="_blank" rel="noopener"><span class="fa fa-dribbble icon-md black"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a aria-label="lien-instagram" class="social" href="https://instagram.com" target="_blank" rel="noopener"><span class="fa fa-instagram icon-md black"></span></a>
+							<a aria-label="lien-instagram" class="social-icon" href="https://instagram.com" target="_blank" rel="noopener"><span class="fa fa-instagram icon-md black"></span></a>
 						</div>
 					</div>
 				</div>
