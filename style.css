@@ -97,7 +97,7 @@ li {
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
-    /* background-color: rgba(0, 0, 0, 0.4); */
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .first-plan {
@@ -220,7 +220,6 @@ footer p a {
     padding-left: 0;
 }
 
-/*** Ajout optimisation ***/ 
 blockquote {
     font-style: italic;
     font-size: 1.2em;
@@ -230,7 +229,7 @@ blockquote {
 .citation-name {
     font-size: 1.5rem;
 }
-/*** Ajout optimisation ***/ 
+
 
 #bloc-1-hero h1 {
     font-size: 32px;
@@ -717,12 +716,12 @@ h4 {
     color: #FFF!important;
 }
 
-/*** Ajout optimisation ***/ 
 .title-1 {
     text-transform: uppercase;
     letter-spacing: .3rem;
     font-size: 2rem;
     font-weight: bold;
+    color: #FFF;
 }
 
 .title-2 {
@@ -733,8 +732,6 @@ h4 {
 .last-title-size {
     font-size: 2em;
 }
-
-/*** Ajout optimisation ***/ 
 
 .btn-atomic-tangerine {
     background: #F3976C;
@@ -767,20 +764,16 @@ h4 {
     border-color: #364577!important;
 }
 
-/* .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
-} */
-
-/* .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
-} */
-
 .bg-banniere {
     background-image: url("img/image-banniere.jpg");
 }
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.jpg");
+}
+
+.contact-form {
+    padding-left: 15px;
 }
 
 @media (max-width: 1024px) {
