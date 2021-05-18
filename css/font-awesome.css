@@ -68,6 +68,11 @@
     content: "\f017"
 }
 
+.fa-warning:before,
+.fa-exclamation-triangle:before {
+    content: "\f071"
+}
+
 .sr-only {
     position: absolute;
     width: 1px;

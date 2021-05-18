@@ -368,6 +368,11 @@ nav .caret {
     margin-bottom: 40px;
 }
 
+.logo {
+    border-radius: 50%;
+    border: none;
+}
+
 .btn {
     margin: 0 5px 5px 0;
 }
@@ -992,4 +997,12 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+.help-block{
+    color: red;
+}
+
+.alert {
+    padding-left: 2em;
 }
