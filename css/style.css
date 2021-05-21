@@ -95,7 +95,7 @@ li {
 }
 
 .texture-paper::before {
-    background: url("/img/texture-paper.png");
+    background: url("../img/texture-paper.png");
     background-size: 280px 280px;
     background-color: rgba(0, 0, 0, 0.1);
 }
@@ -765,11 +765,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("/img/image-banniere.jpg");
+    background-image: url("../img/image-banniere.jpg");
 }
 
 .bg-presentation {
-    background-image: url("/img/image-de-presentation.jpg");
+    background-image: url("../img/image-de-presentation.jpg");
 }
 
 .contact-form {
